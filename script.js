@@ -25,7 +25,7 @@ const games = [
         desc: "Um mundo aberto satírico e detalhado. Acompanhe a história de três criminosos muito diferentes — Michael, Franklin e Trevor — enquanto eles arriscam tudo em uma série de assaltos ousados.",
         year: 2013,
         dev: "Rockstar North",
-        img: "https://placehold.co/600x400/1a1a5a/FFF?text=GTA+V"
+        img: "aa.jpeg.png"
     },
     {
         id: 4,
