@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lendas dos Games | Hall da Fama</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="logo">Lendas<span>.Games</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#about">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Explore os Mundos Virtuais</h1>
+            <p>Uma curadoria dos jogos mais influentes da história.</p>
+            <a href="#gallery" class="cta-button">Ver Jogos</a>
+        </div>
+    </header>
+
+    <section id="gallery" class="game-gallery">
+        <h2>Hall da Fama</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="rpg">RPG</button>
+            <button class="filter-btn" data-filter="acao">Ação</button>
+            <button class="filter-btn" data-filter="sandbox">Sandbox</button>
+        </div>
+        
+        <div class="grid-container" id="game-grid">
+            </div>
+    </section>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <img src="" alt="Jogo" id="modal-img">
+                <div class="modal-info">
+                    <h3 id="modal-title">Título do Jogo</h3>
+                    <span id="modal-genre" class="tag">Gênero</span>
+                    <p id="modal-desc">Descrição detalhada aqui.</p>
+                    <ul class="modal-specs">
+                        <li><strong>Ano:</strong> <span id="modal-year">0000</span></li>
+                        <li><strong>Desenvolvedora:</strong> <span id="modal-dev">Dev</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="about">
+        <p>&copy; 2023 Lendas dos Games. Feito para gamers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
